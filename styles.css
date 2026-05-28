@@ -51,6 +51,10 @@ h6 {
 	text-align: center;
 }
 
+.cover__center h1, .cover__center h3 {
+	text-align: left; padding-left: 20%;
+}
+
 h1,
 h2 {
 	font: 36px/40px Helvetica;
@@ -129,20 +133,29 @@ img {
 	text-align: left;
 	margin: 8px 20px 0 50px;
 	white-space: nowrap;
-	max-width: 800px;
+	max-width: 90vw;
 	min-height: 36px;
+	
 }
 
 .nav {
 	vertical-align: top;
 	display: inline-block;
 	white-space: normal;
-	max-width: 760px;
 }
 
 .nav__item {
 	display: inline-block;
 	margin: 0 8px;
+}
+.backg {
+	
+	background: linear-gradient(252.7deg, rgba(255, 255, 255, 0.28) 0.76%, rgba(153, 153, 153, 0.0868) 100.28%);
+	border: 1px solid rgba(255, 255, 255, 0.33);
+	box-shadow: -5px 5px 3.3px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding:10px;
+
 }
 
 .nav a {
