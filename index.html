@@ -15,24 +15,30 @@
 	<div id="wrapper" style="padding-top: 52px;">
 
 		<header class="header">
-			<nav class="header_center" width="1400px">
-				
-				
-				<div class="header__unit" >
-					<ul class="nav" width="1400px">
-						<li class="nav__item "><a class="logo" style="margin:0px"><img src="./helvetica2.png" style="height:70px;" alt="logo"></a></li>
-						<li class="nav__item"><p style="line-height: 100%; margin:0px; font-weight: bold; font-size: 40px;">Helvetica</p></li>
+			<nav class="header_center">
+
+
+					<ul class="nav" width="99vw">
+						<li class="nav__item " style="margin:0px;"><a class="logo" style="margin:0px"><img src="./helvetica2.png"
+									style="height:70px;" alt="logo"></a></li>
+
+						<li class="nav__item">
+							<p style="line-height: 100%; margin:0px; font-weight: bold; font-size: 40px;">Helvetica</p>
+						</li>
+
 						<li class="nav__item backg"><a href="#">Наша история </a></li>
 						<li class="nav__item backg"><a href="#">Лучшие работы</a></li>
-						<li class="nav__item backg"><a href="#">Шрифты</a></li>
-						<li class="nav__item">		<div class="" style="height:50px; width:100px; ">
-									<img src="./fountainpen.png">
-								</div></li>
-						<li class="nav__item backg" ><a href="#">Зарегистрироватся</a></li>
+						<li class="nav__item backg" ><a href="#">Шрифты</a></li>
 						
+						<li class="nav__item">
+							<div class="pen">
+								<img src="./fountainpen.png">
+							</div>
+						</li>
+						<li class="nav__item backg"><a href="#">Зайти в аккуант</a></li>
+
 					</ul>
-				</div>
-				
+
 
 			</nav>
 		</header>
@@ -49,6 +55,7 @@
 
 			<div class="wrap wrap_advant wrap_pan">
 				<div class="wrap__center">
+					<div id="top_block_margin_fix"></div>
 					<div class="wrap__info">
 						<h3>О нашем продукте</h3><br>
 						<p style="font-size: 3em;font-weight: bold;">
@@ -65,7 +72,7 @@
 			<div class="wrap wrap_advant wrap_pan">
 				<div class="wrap__center">
 					<div class="wrap__info">
-
+						<!--
 						<h3 style="line-height: 100%;">Примечательные оссобености</h3>
 						<p class="lead" id="oneline">
 							<img class="image2" src="lorem.jpg"><br>Огромная
@@ -82,31 +89,67 @@
 						<div class="clearfix"></div>
 						<p class="lead">Что всё вместе придаёт
 							Гельветике её строгий, солидный внешний вид</p>
+						-->
 
+						<h3 style="line-height: 100%;">Примечательные оссобености</h3>
+						<table class="features">
+							<tr>
+								<td>
+									<p>
+										<img class="image2" src="lorem.jpg">
+										<br>
+										Огромная высота
+									</p>
+									<div class="clearfix"></div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										<img class="image2" src="letter height.png"><br>
+										Широкие заглавные буквы одинаковой ширины
+									</p>
+									<div class="clearfix"></div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										<img class="image2" src="wiki image.png"><br>
+										Завершение штрихов на горизонтальных или вертикальных линиях
+									</p>
+									<div class="clearfix"></div>
+								</td>
+							</tr>
+						</table>
+						<p class="lead">Что всё вместе придаёт
+							Гельветике её строгий, солидный внешний вид</p>
 					</div>
-
 				</div>
 			</div>
 
-			<div class="wrap wrap_advant wrap_pan history_block backg">
+			<div class="wrap wrap_advant wrap_pan history_block h_backg">
 				<h3>Наша богатая история</h3>
 				<div class="history_inner">
 					<div class="wrap__center history_container">
 						<div class="wrap__info ">
 
 
+							<h6 class="year backg">1957г.</h6>
+							<img src="./hass type foundry.jpg">
+							<p>Haas type foundry</p>
 							<p>
 								Гарнитура была разработана словолитней Haas Type Foundry в Мюнхенштайне, Швейцария.
 								Дизайнеры намеревались создать нейтральную гарнитуру, которая имела бы большую ясность,
 								не
 								имела внутреннего смысла в своей форме, могла бы использоваться на самых разных вывесках
 							</p>
-							<img src="./hass type foundry.jpg">
-							<p>Haas type foundry</p>
 						</div>
 						<div class="wrap__info ">
 
-
+							<p class="year backg" style="opacity: 0;"><br></p>
+							<img src="./arkidenz.png">
+							<p>Akzidenz-Grotesk</p>
 							<p>
 								Разработка была обусловлена тенденцией того времени — возрождением интереса к
 								«гротескным»
@@ -114,26 +157,31 @@
 								Акциденц-Гротеска от Berthold Type Foundry, a также Schelter-Grotesk, других немецких, a
 								также швейцарских образцов
 							</p>
-							<img src="./arkidenz.png">
-							<p>Akzidenz-Grotesk</p>
 						</div>
 						<div class="wrap__info ">
 
-
-							<p>
-								В 1960 году название гарнитуры было изменено на Helvetica немецкой материнской компанией Haas Stempel Type Foundry с целью сделать семейство более востребованным на международном рынке. Оно происходит от лат. Helvetii — названия племён, населявших территорию современной Швейцарии.
-							</p>
-							<img src="./Specimen-1963.jpg">
+							<h6 class="year backg">1960г.</h6>
+							<img style="max-width:50%; width:fit-content; margin:0px 25%;" src="./Specimen-1963.jpg">
 							<p>Пример ассиметричного швейцарского модерн стиля</p>
+							<p>
+								В 1960 году название гарнитуры было изменено на Helvetica немецкой материнской компанией
+								Haas Stempel Type Foundry с целью сделать семейство более востребованным на
+								международном рынке. Оно происходит от лат. Helvetii — названия племён, населявших
+								территорию современной Швейцарии.
+							</p>
 						</div>
 						<div class="wrap__info ">
 
-
-							<p>
-								Стремясь соответствовать успеху Универса, Артур Ритцель из Stempel преобразовал Neue Haas Grotesk в огромное семейство. Популярность оказалась не за горами. Предполагается, что уже летом 1965 года Гельветика начала вытеснять Акциденц-Гротеск в Нью-Йорке, когда компания Amsterdam Continental, перестала продвигать Акциденц-Гротеск, а вместо этого начала сосредотачиваться на Гельветике
-							</p>
+							<h6 class="year backg">1965г.+</h6>
 							<img src="./Univers.png">
 							<p>Демонстрация шрифта Univers</p>
+							<p>
+								Стремясь соответствовать успеху Универса, Артур Ритцель из Stempel преобразовал Neue
+								Haas Grotesk в огромное семейство. Популярность оказалась не за горами. Предполагается,
+								что уже летом 1965 года Гельветика начала вытеснять Акциденц-Гротеск в Нью-Йорке, когда
+								компания Amsterdam Continental, перестала продвигать Акциденц-Гротеск, а вместо этого
+								начала сосредотачиваться на Гельветике
+							</p>
 						</div>
 					</div>
 				</div>
@@ -142,54 +190,72 @@
 			<div class="wrap wrap_advant wrap_pan">
 				<div class="wrap__center">
 					<div class="wrap__info remove_backg">
-						<h3>Знаменитые дизайны</h3>
-						<div class="logos_container">
-							<div class="Alogo">
-								<img src="./scotch.png">
-								<p> Helvetica Bold</p>
-							</div>
-							<div class="Alogo">
-								<img src="./northface.jpg">
-								<p> Helvetica Bold</p>
-							</div>
-							<div class="Alogo">
-								<img src="./subway.jpg">
-								<p> Helvetica Black</p>
-							</div>
-							<div class="Alogo">
-								<img src="./jeep.jpg">
-								<p> Helvetica Bold</p>
-							</div>
-							<div class="Alogo">
-								<img src="./lg.jpg">
-								<p> Helvetica Black</p>
-							</div>
-							<div class="Alogo">
-								<img src="./panasonic.jpg">
-								<p> Helvetica Black</p>
-							</div>
-						</div>
+						<table>
+							<tr>
+
+								<h3 class="backg">Знаменитые дизайны</h3>
+							</tr>
+							<tr class="Alogo">
+								<td><img src="./scotch.png"></td>
+								<td><img src="./northface.jpg"></td>
+								<td><img src="./subway.jpg"></td>
+							</tr>
+							<tr class="Alogo Alogo_text">
+								<td>
+									<p class="backg"> Helvetica Bold</p>
+								</td>
+								<td>
+									<p class="backg"> Helvetica Bold</p>
+								</td>
+								<td>
+									<p class="backg"> Helvetica Black</p>
+								</td>
+							</tr>
+							<tr class="Alogo">
+								<td><img src="./jeep.jpg"></td>
+								<td><img src="./lg.jpg"></td>
+								<td><img src="./panasonic.jpg"></td>
+							</tr>
+							<tr class="Alogo Alogo_text">
+								<td>
+									<p class="backg"> Helvetica Bold</p>
+								</td>
+								<td>
+									<p class="backg"> Helvetica Black</p>
+								</td>
+								<td>
+									<p class="backg"> Helvetica Black</p>
+								</td>
+							</tr>
+						</table>
 					</div>
 
 				</div>
 			</div>
 			<div class="wrap wrap_advant wrap_pan">
-				<div class="wrap__center">
+				<div class="wrap__center ">
 					<div class="wrap__info remove_backg ">
-						<h3>Мы - Везде!</h3>
-						<div class="logos_container">
-							<div class="Alogo">
-								<img class="thriller_img" src="./sign.jpg">
-								<p> Чикагский метрополитен</p>
-							</div>
-							<div class="Alogo">
-								<img class="thriller_img" src="./metro.jpg">
-								<p> Дорожный знак, Вена</p>
-							</div>
-							<div class="Alogo">
-								<img class="thriller_img" src="./thriller.jpg">
-								<p> Постер фильму «Дьяволицы»</p>
-							</div>
+
+						<h3 class="backg rounder_corners">Мы - Везде!</h3>
+						<div class="thriller_fix">
+							<table>
+								<tr class="Alogo">
+									<td><img class="thriller_img" src="./sign.jpg"></td>
+									<td><img class="thriller_img" src="./metro.jpg"></td>
+									<td><img class="thriller_img" src="./thriller.jpg"></td>
+								</tr>
+								<tr class="Alogo Alogo_text">
+									<td>
+										<p class="backg"> Чикагский метрополитен</p>
+									</td>
+									<td>
+										<p class="backg"> Дорожный знак, Вена</p>
+									</td>
+									<td>
+										<p class="backg"> Постер фильму «Дьяволицы»</p>
+									</td>
+								</tr>
+							</table>
 						</div>
 					</div>
 				</div>
@@ -224,7 +290,30 @@
 								<div class=" m1_item">
 									<p>Condensed</p>
 								</div>
-
+								<!--
+								<table>
+									<div class=" m1_item">
+										<p>Helvetica</p>
+									</div>
+									<div class=" m1_item">
+										<p>Bold</p>
+									</div>
+									<div class=" m1_item">
+										<p>Black</p>
+									</div>
+									<div class=" m1_item">
+										<p>Thin</p>
+									</div>
+									<div class=" m1_item">
+										<p>Neue</p>
+									</div>
+									<div class=" m1_item">
+										<p>Rounded</p>
+									</div>
+									<div class=" m1_item">
+										<p>Condensed</p>
+									</div>
+								</table>-->
 
 							</div>
 							<div class="item2_container" style="grid-column: 2/ span 2; padding:5px;">
@@ -244,23 +333,50 @@
 									<img src="./fountainpen.png">
 								</div>
 
-								<div class=" module_item2 backg" style="float:right;">
-									<img src="./settings.svg"
-										style="width:100%; height:100%;filter: brightness(0%);">
-								</div>
-								<div class=" module_item2 backg" style="float:right; padding:0px;">
-									<div class="wrap__info module_item2 m2_color">
+								<div>
+
+									<div class=" module_item2 backg" style="float:right; margin-left:10px;">
+										<img src="./settings.svg"
+											style="width:100%; height:100%;filter: brightness(0%);">
+									</div>
+
+									<div class=" module_item2 backg" style="float:right; margin-left:10px;">
+										<div class="wrap__info module_item2 m2_color" style="padding:0px; width:28px;">
+										</div>
+									</div>
+									<div class=" module_item2 backg" style="float:right; ">
+										<div class="wrap__info module_item2 m2_color"
+											style="background-color: black;padding:0px;width:28px;">
+										</div>
 									</div>
 								</div>
-								<div class=" module_item2 backg" style="float:right;">
-									<div class="wrap__info module_item2 m2_color" style="background-color: black;">
-									</div>
-								</div>
-							</div>
+							</div><!--
+							<table class="item2_container">
+								<tr>
+									<td class=" module_item2 backg">
+										<p><b>B</b></p>
+									</td>
+									<td class=" module_item2 backg">
+										<p><i>I</i></p>
+									</td>
+									<td class=" module_item2 backg">
+										<p style="text-decoration:line-through;">S</p>
+									</td>
+									<td class=" module_item2 backg">
+										<p style="text-decoration: underline;">U</p>
+									</td>
+									
+									<td class=" module_item2 remove_backg fountainpen">
+										<img src="./fountainpen.png">
+									</td>
+								</tr>
+							</table>-->
+
 							<div class="wrap__info module_item3" style="grid-column: 2/ span 2;">
-								<div class="module_text_lines"></div>
-								<p>The quick brown fox jumps over the lazy dog.<br><br>Lorem ipsum dolor sit
-									amet?<br><br>Съешь ещё этих мягких французких булочек, да выпей чаю!</p>
+								<div class="module_text_lines">
+									<p>The quick brown fox jumps over the lazy dog.<br><br>Lorem ipsum dolor sit
+										amet?<br><br>Съешь ещё этих мягких французких булочек, да выпей чаю!</p>
+								</div>
 							</div>
 						</div>
 
@@ -272,19 +388,31 @@
 
 					<div class="wrap__info pricelist">
 						<h3>Цены</h3>
-						<p class="">
+						<img class="image1" style="height:30vh; width:30vh;" src="TripleHel.png"><br>
+						<table>
+							<tr>
+								<td><input type="checkbox" name="Font" value="Font" checked disabled></td>
+								<td><label for="vehicle1"> Helvetica basic</label></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" name="Font" value="Font"></td>
+								<td><label for="vehicle1"> Helvetica bold, black</label></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" name="Font" value="Font"></td>
+								<td><label for="vehicle1"> Helvetica rounded, thin</label></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" name="Font" value="Font"></td>
+								<td><label for="vehicle1"> Helvetica Neue</label></td>
+							</tr>
 
-							<img class="image1" style="height:30vh; width:30vh;" src="TripleHel.png"><br>
-							<input type="checkbox" name="vehicle1" value="Bike">
-							<label for="vehicle1"> Helvetica basic</label><br>
-							<input type="checkbox" name="vehicle1" value="Bike">
-							<label for="vehicle1"> Helvetica bold, black</label><br>
-							<input type="checkbox" name="vehicle1" value="Bike">
-							<label for="vehicle1"> Helvetica rounded, thin</label><br>
-							<input type="checkbox" name="vehicle1" value="Bike">
-							<label for="vehicle1"> Helvetica Neue</label><br>
-							<p>Итого: <span style="color:#90ee90;"><span style="text-decoration: line-through;">$160</span> $80</span></p>
-							<div class="wrap__info" style="width:200px;"><h3>Купить</h3></div>
+						</table>
+						<p>Итого: <span style="color:#90ee90;"><span style="text-decoration: line-through;">$160</span>
+								$80</span></p>
+						<div class="wrap__info" style="width:200px;">
+							<h3>Купить</h3>
+						</div>
 						</p>
 					</div>
 				</div>
